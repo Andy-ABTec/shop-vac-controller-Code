@@ -108,7 +108,7 @@ void setup()
     digitalWrite(relayPin,LOW);
   #endif
 
-  #if DEBUG==1                                      // DEBUG: print the offDelay
+  #if DEBUG==1                                      // DEBUG: print offDelay
     printf("offDelay = %d\n",offDelay());
   #endif
 
